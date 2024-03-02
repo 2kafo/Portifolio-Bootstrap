@@ -1,19 +1,9 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import './contact.css'
 const Contact = () => {
 
    
-    const [fname, setFname] = useState('')
-    const [lname, setLname] = useState('')
-    const [email, setEmail] = useState('')
-    const [phoneNo, setPhoneNo] = useState('')
-    const [serviceType, setServiceType] = useState('')
-    const [description, setDescription] = useState('')
-
-    const handleChange = ({currentTarget: input}) =>{
-    console.log(currentTarget)
-        
-    }
+    
 
     return (
         <>
@@ -25,8 +15,8 @@ const Contact = () => {
                             type="text"
                             placeholder="Enter your First Name"
                             name='fname'
-                            value={fname}
-                            onChange={handleChange}
+                            // value={fname}
+                            // onChange={handleChange}
                         />
                     </div>
                     <div className="form-group">
@@ -34,8 +24,8 @@ const Contact = () => {
                             type="text"
                             placeholder="Enter your Last Name"
                             name='lname'
-                            value={lname}
-                            onChange={handleChange}
+                            // value={lname}
+                            // onChange={handleChange}
                         />
                     </div>
                     <div className="form-group">
@@ -43,8 +33,8 @@ const Contact = () => {
                             type="email"
                             placeholder="Enter your email"
                             name='email'
-                            value={email}
-                            onChange={handleChange}
+                            // value={email}
+                            // onChange={handleChange}
                         />
                     </div><br />
                     <div className="form-group">
@@ -52,17 +42,17 @@ const Contact = () => {
                             type="number"
                             placeholder="Enter your Phone number"
                             name='phoneNo'
-                            value={phoneNo}
-                            onChange={handleChange}
+                            // value={phoneNo}
+                            // onChange={handleChange}
                         />
                     </div><br />
                     <div className="form-group">
                         <input
                             type="text"
                             placeholder="Type of service you need "
-                            name='serviceType'
-                            value={serviceType}
-                            onChange={handleChange}
+                            // name='serviceType'
+                            // value={serviceType}
+                            // onChange={handleChange}
                         />
                     </div><br />
                     {/* <div className="form-group">
@@ -74,7 +64,13 @@ const Contact = () => {
                     </div><br /> */}
                     <div className="form-group">
                         <p>Additional Information</p>
-                        <textarea name="description" value={description} onChange={handleChange} id cols={90} rows={10} defaultValue={""} />
+                        <textarea 
+                        name="description" 
+                        // value={description} 
+                        // onChange={handleChange} 
+                        id cols={90} rows={10}
+                         defaultValue={""}
+                         />
                     </div><br />
                     <button type="submit">Send Enquiry</button>
                 </form>
