@@ -1,0 +1,31 @@
+.navigation {
+    background-color: rgb(255, 255, 255);
+    color: rgb(74, 2, 2);
+    display: flex;
+    justify-content: flex-end;
+
+    font-family: 'Freehand', cursive;
+  
+  }
+  .navigation ul{
+    margin: 0 ;
+    padding: .5em;
+  }
+  .navigation ul li {
+    padding: .5rem 1rem;
+    display: inline;
+  }
+  
+  .navigation ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(74, 2, 2);
+    font-size: 24px;
+    padding: .3rem 1rem;
+  }
+  
+  .navigation ul li:hover a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 0, 0);
+    text-shadow: 30pc;
+  }

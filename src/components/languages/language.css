@@ -1,0 +1,21 @@
+
+.language {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .language ul {
+    display: inline-flex;
+  
+    list-style-type: none;
+  }
+  
+  .language ul li {
+    padding: .5rem 2rem;
+  }
+  
+  .language ul li img {
+    width: 100px;
+  }
+  

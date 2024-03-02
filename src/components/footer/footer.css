@@ -1,0 +1,24 @@
+.footer {
+    background-color: rgb(12, 7, 7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 4rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.contact {
+    padding: 0rem 9rem 0rem rem;
+    text-align: right;
+    font-family: 'Freehand', cursive;
+}
+
+.footer .rights {
+
+    font-size: x-small;
+    margin-top: 3rem;
+  
+}
